@@ -114,6 +114,46 @@ The computer randomly selects its choice, and the winner is decided using
 
 <hr>
 
+<!-- 🐍 WORKING Nokia Snake Animation (GitHub Safe) -->
+<p align="center">
+<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Border -->
+  <rect x="5" y="5" width="890" height="110"
+        fill="none" stroke="#2f81f7" stroke-width="2" rx="10"/>
+
+  <!-- Snake head -->
+  <rect y="15" width="14" height="14" fill="#7ee787">
+    <animate attributeName="x"
+             from="10" to="860"
+             dur="6s"
+             repeatCount="indefinite" />
+  </rect>
+
+  <!-- Snake body 1 -->
+  <rect y="15" width="12" height="12" fill="#58a6ff">
+    <animate attributeName="x"
+             from="0" to="850"
+             dur="6s"
+             begin="0.4s"
+             repeatCount="indefinite" />
+  </rect>
+
+  <!-- Snake body 2 -->
+  <rect y="15" width="10" height="10" fill="#58a6ff">
+    <animate attributeName="x"
+             from="-20" to="830"
+             dur="6s"
+             begin="0.8s"
+             repeatCount="indefinite" />
+  </rect>
+
+</svg>
+</p>
+
+<p align="center"><i>Nokia-style snake moving continuously</i></p>
+
+
 <h2 align="center">🎞 Snake • Water • Gun Animation</h2>
 
 <p align="center">

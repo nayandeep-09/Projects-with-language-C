@@ -30,15 +30,6 @@
 
 <hr>
 
-<h2>▶️ How to Run the Programs</h2>
-
-<pre>
-gcc program.c -o program
-./program
-</pre>
-
-<hr>
-
 <h2>🎯 Purpose</h2>
 
 <ul>

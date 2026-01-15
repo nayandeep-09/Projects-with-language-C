@@ -1,67 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Projects with C Language</title>
-</head>
-<body style="font-family: Arial, Helvetica, sans-serif; line-height: 1.6;">
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&center=true&vCenter=true&width=500&lines=Projects+with+C+Language;Learning+C+by+Building+Projects;Logic+%7C+Practice+%7C+Growth" alt="Typing SVG" />
+</h1>
 
-    <h1 align="center">✨ Projects with C Language ✨</h1>
+<p align="center">
+  <strong>Simple C projects built to improve logic and problem-solving skills</strong>
+</p>
 
-    <p align="center">
-        <strong>A collection of simple and logical C programming projects</strong><br>
-        Built while learning the fundamentals of the C language
-    </p>
+<hr>
 
-    <hr>
+<h2>🎯 About This Repository</h2>
 
-    <h2>📂 About This Repository</h2>
-    <p>
-        This repository contains my <strong>C programming practice projects</strong>.
-        All projects are created with a focus on <strong>logic building</strong> and
-        understanding core C concepts in a simple and beginner-friendly way.
-    </p>
+<p>
+This repository contains my <strong>C programming projects</strong> created during
+my learning journey. Each project focuses on <strong>logic building</strong>,
+clear understanding of concepts, and beginner-friendly implementation.
+</p>
 
-    <hr>
+<hr>
 
-    <h2>🛠 Concepts Used</h2>
-    <ul>
-        <li>if–else statements</li>
-        <li>Loops (for, while, do–while)</li>
-        <li>Functions</li>
-        <li>Arrays and strings</li>
-        <li>Structures</li>
-        <li>Basic file handling</li>
-    </ul>
+<h2>🎮 Project 1: Number Guessing Game</h2>
 
-    <hr>
+<p>
+In this game, the <strong>computer generates a random number under 100</strong>.
+The user has to guess the correct number.
+</p>
 
-    <h2>▶️ How to Run the Programs</h2>
-    <pre>
-gcc program.c -o program
-./program
-    </pre>
+<ul>
+  <li>If the guessed number is <strong>greater</strong>, the program displays <b>"Think Lower"</b></li>
+  <li>If the guessed number is <strong>smaller</strong>, the program displays <b>"Think Higher"</b></li>
+  <li>The game continues until the correct number is guessed</li>
+</ul>
 
-    <hr>
+<hr>
 
-    <h2>🎯 Purpose</h2>
-    <ul>
-        <li>Practice C programming</li>
-        <li>Improve logical thinking</li>
-        <li>Maintain learning progress on GitHub</li>
-        <li>Useful for college projects and practice</li>
-    </ul>
+<h2>🐍 Project 2: Snake, Water & Gun Game</h2>
 
-    <hr>
+<p>
+This is a simple logic-based game inspired by <strong>Rock, Paper, Scissors</strong>.
+The user plays against the computer.
+</p>
 
-    <p align="center">
-        <strong>👨‍💻 Author:</strong> Nayandeep Chouhan<br>
-        📍 Indore, India
-    </p>
+<ul>
+  <li>Snake drinks Water → Snake wins</li>
+  <li>Water drowns Gun → Water wins</li>
+  <li>Gun kills Snake → Gun wins</li>
+</ul>
 
-    <p align="center">
-        ⭐ Feel free to explore and learn ⭐
-    </p>
+<p>
+The computer randomly selects its choice, and the winner is decided using
+<strong>if–else logic</strong>.
+</p>
 
-</body>
-</html>
+<hr>
+
+<h2>🏥 Project 3: Medical Store Management System</h2>
+
+<p>
+This project is a <strong>console-based medical store management system</strong>
+written in C.
+</p>
+
+<ul>
+  <li>Add new medicines</li>
+  <li>View available medicines</li>
+  <li>Search medicine by ID</li>
+  <li>Manage quantity and price</li>
+</ul>
+
+<p>
+This project uses <strong>structures, loops, and if–else statements</strong>
+to manage data in a simple way.
+</p>
+
+<hr>
+
+<h2>🛠 Concepts Used</h2>
+
+<ul>
+  <li>if–else statements</li>
+  <li>Loops</li>
+  <li>Functions</li>
+  <li>Structures</li>
+  <li>Basic input/output</li>
+</ul>
+
+<hr>
+
+<p align="center">
+  <strong>👨‍💻 Author:</strong> Nayandeep Chouhan <br>
+  🌱 Learning C Programming step by step
+</p>
+
+<p align="center">
+  ⭐ Thanks for visiting my repository ⭐
+</p>

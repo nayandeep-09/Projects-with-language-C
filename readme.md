@@ -51,6 +51,58 @@ The computer randomly selects its choice, and the winner is decided using
 <strong>if–else logic</strong>.
 </p>
 
+<!-- 🔥 ANIMATION BLOCK STARTS HERE 🔥 -->
+
+<hr>
+
+<h2 align="center">🎞 Snake • Water • Gun Animation</h2>
+
+<p align="center">
+<svg width="520" height="180" viewBox="0 0 520 180" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gun kills Snake -->
+  <g>
+    <text x="40" y="50" font-size="22">🔫 Gun</text>
+    <text x="200" y="50" font-size="18">kills</text>
+    <text x="330" y="50" font-size="22">🐍 Snake</text>
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             begin="0s"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </g>
+
+  <!-- Snake drinks Water -->
+  <g>
+    <text x="40" y="100" font-size="22">🐍 Snake</text>
+    <text x="200" y="100" font-size="18">drinks</text>
+    <text x="330" y="100" font-size="22">💧 Water</text>
+    <animate attributeName="opacity"
+             values="0;0;1;1;0"
+             begin="1s"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </g>
+
+  <!-- Water destroys Gun -->
+  <g>
+    <text x="40" y="150" font-size="22">💧 Water</text>
+    <text x="200" y="150" font-size="18">destroys</text>
+    <text x="330" y="150" font-size="22">🔫 Gun</text>
+    <animate attributeName="opacity"
+             values="0;0;0;1;1;0"
+             begin="2s"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </g>
+
+</svg>
+</p>
+
+<p align="center"><i>Looping animation representing Snake–Water–Gun logic</i></p>
+
+<!-- 🔥 ANIMATION BLOCK ENDS HERE 🔥 -->
+
 <hr>
 
 <h2>🏥 Project 3: Medical Store Management System</h2>

@@ -26,14 +26,10 @@ The user has to guess the correct number.
 </p>
 
 <ul>
-  <li>If the guessed number is <strong>greater</strong>, the program says <b>"Think Lower"</b></li>
-  <li>If the guessed number is <strong>smaller</strong>, the program says <b>"Think Higher"</b></li>
+  <li>If the guessed number is <strong>greater</strong>, the program displays <b>"Think Lower"</b></li>
+  <li>If the guessed number is <strong>smaller</strong>, the program displays <b>"Think Higher"</b></li>
   <li>The game continues until the correct number is guessed</li>
 </ul>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" width="350" alt="Guessing game animation">
-</p>
 
 <hr>
 
@@ -55,10 +51,6 @@ The computer randomly selects its choice, and the winner is decided using
 <strong>if–else logic</strong>.
 </p>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="350" alt="Game animation">
-</p>
-
 <hr>
 
 <h2>🏥 Project 3: Medical Store Management System</h2>
@@ -78,10 +70,6 @@ written in C.
 <p>
 This project uses <strong>structures, loops, and if–else statements</strong>
 to manage data in a simple way.
-</p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="350" alt="Management system animation">
 </p>
 
 <hr>
